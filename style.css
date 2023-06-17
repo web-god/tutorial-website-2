@@ -8,11 +8,17 @@
   padding: 0;
 }
 
+
+@font-face {
+  font-family: prompt;
+  src: url("fonts/Prompt/Prompt-Light.ttf");
+}
+
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 100%;
-  --color-primary-blue: #4250b9;
+  --color-primary-blue: #5562c3;
   --color-light-grey: #e1e2e4;
   --color-grey: #424949;
   --color-teal:rgb(36, 95, 214);
@@ -111,7 +117,9 @@ body {
   padding: 0.5rem;
   border-bottom: none;
   color:var(--color-primary-blue);
+  
 }
+
 
 .nav-list {
   position: relative;
@@ -135,6 +143,21 @@ body {
 
 .show {
   display: block;
+}
+
+
+.title{
+  background-color: #3d3d3f;
+  color:white;
+  font-family:"prompt";
+ 
+}
+
+.nav-title {
+  display: block;
+  padding: 0.5rem 1rem;
+  
+  border-top: 1px solid rgb(230, 219, 219);
 }
 
 /* || Main Document */
@@ -173,7 +196,15 @@ code {
 
 .nav-link.active {
 	background-color: var(--color-primary-blue);
-  color: white
+  color: white;
+}
+
+.nav-link.active:hover{
+  transform: translateY(-0.5em);
+  /* box-shadow: rgba(0, 255, 0, 0.597) 0 0 2em; */
+  background-color: #04AA6D;
+  transition-duration: 0.3s;
+  border-radius: 0.5  em;
 }
 
 
