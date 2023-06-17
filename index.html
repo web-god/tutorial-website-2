@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+			integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>Tutorial Website 2</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div>
+				<div id="open-nav-btn" class="ham-nav-arrow-btn show">
+					<!-- <i class="far fa-arrow-alt-circle-right arrow"></i> -->
+				</div>
+				<div id="close-nav-btn" class="ham-nav-arrow-btn hide">
+						
+				</div>
+			</div>
+			<div class="navigation">
+				<nav id="navbar">
+					<header id="navbar-header">
+						<div>
+							<img src="html5.png" alt="" width="40px" height="40px">
+							<span style="color: orangered;">HTML</span>
+						</div>
+					</header>
+					<ul class="nav-list nobullets">
+						<li>
+							<a class="nav-link notextdec link-grey active" href="#Introduction"
+								>Introduction</a
+							>
+						</li>
+						<li>
+							<a class="nav-link notextdec link-grey" href="#Getting_Started"
+								>Getting Started</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-link notextdec link-grey"
+								href="#tags"
+								>What are Tags and Attributes?</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-link notextdec link-grey"
+								href="#html_tags"
+								>What Are HTML Tags?</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-link notextdec link-grey"
+								href="#html_attr"
+								>What are HTML Attributes?</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-link notextdec link-grey"
+								href="#html_editors"
+								>HTML Editors</a
+							>
+						</li>
+						<li>
+							<a
+								class="nav-link notextdec link-grey"
+								href="#first_webpage"
+								>Creating Your First HTML Webpage</a
+							>
+						</li>
+						
+						<li>
+							<a class="nav-link notextdec link-grey" href="#Reference"
+								>Reference</a
+							>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<main id="main-doc">
+				<section class="main-section" id="Introduction">
+					<header>Introduction</header>
+					<article>
+						<h3>What is HTML?</h2>
+						<p>
+							HTML is the <b>language in which most websites are written</b>. HTML is used to create pages and make them functional.	
+						</p>
+							<br>
+						<p>
+							The code used to make them visually appealing is known as CSS and we shall focus on this in a later tutorial.
+						</p>
+						<p>
+							If you’d like to learn more about css before diving in,
+							<a
+								href="#"
+								target="_blank"
+								class="link-grey text-bold"
+								>watch a free course on CSS</a
+							>
+						</p>
+					</article>
+				</section>
+				<section class="main-section" id="Getting_Started">
+					<header>Getting Started</header>
+					<article>
+						<h3>The History of HTML?</h3>
+						<p>
+							HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in <b>1989. It stands for</b> Hyper Text Markup Language. <br><br>
+
+Hypertext means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as <a
+href="#"
+target="_blank"
+class="link-grey text-bold">
+HTML5</a> <br><br>
+
+A <b>Markup Language</b> is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and <b>attributes</b>.
+						</p>
+					</article>
+				</section>
+				
+				
+				
+				
+				
+				<section class="main-section" id="tags">
+					<header>What are Tags and Attributes?</header>
+					<article>
+						Tags and attributes are the basis of HTML. <br><br>
+
+They work together but perform different functions – it is worth investing 2 minutes in differentiating the two.
+					</article>
+				</section>
+
+				<section class="main-section" id="html_tags">
+					<header>What Are HTML Tags?</header>
+					<article>
+						Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. <br> An example of a tag is:<span style="color:#D6586D;background-color:#F9F2F4;"> &lt;h1&gt;</span>. <br><br>
+
+							Most tags must be opened <span style="color:#D6586D;background-color:#F9F2F4;"> &lt;h1&gt;</span> and closed <span style="color:#D6586D;background-color:#F9F2F4;"> &lt;h1/&gt;</span> in order to function.
+					</article>
+				</section>
+
+
+
+
+
+
+				<section class="main-section" id="html_attr">
+					<header>What are HTML Attributes?</header>
+					<article>
+						Attributes contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.
+
+
+						<p>An example of an attribute is:</p>
+						<p>
+							<code
+								>&lt;img src=&quot;mydog.jpg&quot; alt=&quot;A photo of my dog.&quot;&gt;	</code
+							>
+						</p>
+						<p>
+							In this instance, the image source (src) and the alt text (alt) are attributes of the <span style="color:#D6586D;background-color:#F9F2F4;"> &lt;img&gt;</span> tag.
+						</p><br>
+						<h3>Golden Rules To Remember</h3>
+							<ol>
+								<li><p>The vast majority of tags must be opened (<span style="color:#D6586D;background-color:#F9F2F4;"> &lt;tag&gt;</span>) and closed (<span style="color:#D6586D;background-color:#F9F2F4;"> &lt;/tag&gt;</span>) with the element information such as a title or text resting between the tags.</p></li>
+								<li> <p>When using multiple tags, the tags must be closed in the order in which they were opened. For example:</p></li>
+							</ol>
+							<span style="color:#D6586D;background-color:#F9F2F4;">&lt;strong&gt;&lt;em&gt;This is really important!&lt;/em&gt;&lt;/strong&gt;</span>
+					</article>
+				</section>
+
+
+				<section class="main-section" id="html_editors">
+					<header>HTML Editors</header>
+					<article>
+						<p>Now that we’ve gotten the basic theory out of the way. It’s time to learn how to build our first website.</p>
+						<p>First off, we must ensure that we have the right tools. Most important, we need an HTML editor.</p>
+						<p>There are many choices on the market. Here are a handful of the most popular:</p>
+						<br>
+
+						<!-- vscode -->
+						
+						<br>
+						<h3>VsCode</h3>
+						<p>One of the most popular IDEs for web development.<a href="https://code.visualstudio.com/" style="color:rgb(226, 47, 47);">VsCode</a> as it is free and also offers cross-platform.</p>
+						<p> Visual Studio Code is considered the best JavaScript IDE for Windows, Mac, and Linux.</p>
+						<br>
+						<img src="vscode.png" alt="" width="800px" height="400px" class="figure">
+						<br>
+						<p><i>The most popular and also my recommendation would be VSCode, I’ve been using it for years.</i></p>
+						<br>
+						<div class="pros_cons">
+								<div>
+									<h3 style="color:green">Pros</h3>
+									<ul>
+										<li>Lightweight, and fast</li>
+										<li>Free</li>
+										<li>Simple and Clean User Interface</li>
+										<li>Built-in Terminal</li>
+										<li>Multiple Cursor</li>
+									</ul>
+								</div>
+
+								<div>
+									<h3 style="color:red">Cons</h3>
+									<ul>
+										<li>No support for older programming version such as ASP.NET</li>
+										<li>Debugging features are limited</li>
+										
+									</ul>
+								</div>
+						</div>
+						
+						<!-- vscode -->
+							<br>
+						<!-- sublime Text -->
+						<h3>Sublime Text 3</h3>
+						<p>However, for this tutorial, we will use the <a href="https://www.sublimetext.com/" style="color:rgb(226, 47, 47);">Sublime Text 3</a> as it is free and also offers cross-platform</p>
+						<p>support for Windows, Mac, and Linux users.</p>
+						<br>
+						<img src="subl.png" alt="" width="800px" height="400px" class="figure">
+						<br>
+						<p><i>Sublime Text 3 has a mini-preview window on the right.</i></p>
+						<br>
+						<div class="pros_cons">
+								<div>
+									<h3 style="color:green">Pros</h3>
+									<ul>
+										<li>Easily customizable</li>
+										<li>Beginner-friendly</li>
+										<li>Pleasant color schemes to choose from.</li>
+									</ul>
+								</div>
+
+								<div>
+									<h3 style="color:red">Cons</h3>
+									<ul>
+										<li>Can’t print documents or code</li>
+										<li>No toolbar or dashboard available.</li>
+										
+									</ul>
+								</div>
+						</div>
+
+						<!-- sublime -->
+
+						<!-- notepad -->
+						<br>
+						<h3>Notepad</h3>
+						<p>Another common choice for HTML and other language coders is <a href="https://notepad-plus-plus.org/" style="color:rgb(226, 47, 47);">Sublime Text 3</a> as it is free and also offers cross-platform.</p>
+						<p> It is a tiny program to download and perform the functions you need for writing clean code.</p>
+						<br>
+						<img src="notepad.png" alt="" width="800px" height="400px" class="figure">
+						<br>
+						<p><i>This is Notepad ++. Far from glamorous but does the job.</i></p>
+						<br>
+						<div class="pros_cons">
+								<div>
+									<h3 style="color:green">Pros</h3>
+									<ul>
+										<li>Distraction-free interface</li>
+										<li>Auto-completion feature</li>
+										<li>Plugin options for extended functionalities.</li>
+									</ul>
+								</div>
+
+								<div>
+									<h3 style="color:red">Cons</h3>
+									<ul>
+										<li>Can be difficult to get used to for beginners</li>
+										<li>No support for Mac.</li>
+										
+									</ul>
+								</div>
+						</div>
+						<!-- notepad -->
+						<br>
+						<h3>What To Avoid</h3>
+						<br>
+						<p><b>Do not use Microsoft Word</b> or any other word processor when writing HTML code,</p>
+						<p>only an HTML editor or at the very least, your machine’s built-in notepad, is suitable for the task.</p>
+						<br>
+						<p>Secondly, ensure that you’ve installed a number of <b>different browsers</b></p>
+						<p>such as <a href="https://www.google.com/chrome/">Chrome</a> and <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> in order to preview your upcoming creation.</p>
+						
+					</article>
+				</section>
+
+				<!-- creating first web page	 -->
+
+				<section class="main-section" id="first_webpage">
+					<header>Creating Your First HTML Webpage</header>
+					<article>
+						<p>First off, you need to open your HTML editor, where you will find a clean white page on which to write your code.</p>
+						<br>
+						<p>From there you need to layout your page with the following tags.</p>
+						<br>
+						<h3>
+							Basic Construction of an HTML Page
+						</h3>
+						<br>
+						<p>These tags should be placed underneath each other at the top of every HTML page that you create.</p>
+						<br>
+						<ul>
+							<li style="list-style-type: none;"><span style="color:#D6586D;background-color:#F9F2F4;">&lt;!DOCTYPE html&gt; </span>— These tags should be placed underneath each other at the top of every HTML page that you create.</li>
+							
+							<li style="list-style-type: none;"><span style="color:#D6586D;background-color:#F9F2F4;">&lt;html&gt; </span>— This tag signals that from here on we are going to write in HTML code.</li>
+
+							<li style="list-style-type: none;"><span style="color:#D6586D;background-color:#F9F2F4;">&lt;head&gt; </span>— This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.</li>
+
+							<li style="list-style-type: none;"><span style="color:#D6586D;background-color:#F9F2F4;">&lt;body&gt; </span>— This is where the content of the page goes.</li>
+							<br>
+							<img src="html_strcuture.png" alt="" width="800px" height="600px" class="figure">
+					
+						</ul>
+					</article>
+				</section>
+				<section class="main-section" id="Reference">
+					<header>Reference</header>
+					<article>
+						<p>
+							The information used for this documentation can be found on
+							<a
+								href="https://html.com"
+								target="_blank"
+								class="link-grey text-bold"
+								>Html.com</a
+							>
+						</p>
+					</article>
+				</section>
+			</main>
+		</div>
+		
+		<script src="./script.js"></script>
+	</body>
+</html>
